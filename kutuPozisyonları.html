@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                border-style: solid;
+                border-color: bisque;
+            }
+            #büyük{
+                width: 200px;
+                height: 100px;
+                background-color:aquamarine;
+                position: fixed;
+                right: 0px;
+                bottom: 0px;
+                
+            }
+            #küçük{
+                width: 100px;
+                height: 50px;
+                background-color: blue;
+                position: relative;
+                left: 50px;
+                top: 50px;
+            }
+            #bir{
+                border-radius: 20px;
+                width: 200px;
+                height: 100px;
+                margin: auto;
+                background-color: khaki;
+
+            }
+            #iki{
+                width: 100px;
+                height: 50px;
+                margin: auto;
+                background-color: lawngreen;
+                position: relative;
+                top: -30px;
+                z-index: -1;
+            }
+            #overflowbir{
+                width: 100px;
+                height: 100px;
+                background-color: rgb(138, 138, 146);
+                position: relative;
+                left: 50px;
+                top: 50px;
+                overflow:scroll;
+            }
+            #overflowiki{
+                width: 100px;
+                height: 100px;
+                background-color: rgb(138, 138, 146);
+                position: relative;
+                left: 200px;
+                top: 50px;
+                
+            }
+            </style>
+    </head>
+    <body>
+        <div id="büyük">
+        
+        </div>
+        <div id="küçük">
+       
+        </div>
+        <!--fixed sayfaya göre ayarlanmasını sağlar
+        relative kutunun konumuna göre ayarlanamasını sağlar
+    otomatik değeri statiktir
+eğer küçük büyüğün içinde olsaydı absolute ile her zaman içinde kalması sağlanır-->
+    <div id="bir">
+        
+    </div>
+    <div id="iki">
+
+    </div> 
+    <div id="overflowbir">
+        djjkdnjksdndnjfjdksff<br>
+        dsfffggfd <br>
+        dsfdffsdffsfffsfdfffffffadff<br>
+        fdfdsfs<br>
+        ddfsfd<br>
+        dsffvf<br>
+        dsfffgx
+
+    </div> 
+    <div id="overflowiki">
+        djjkdnjksdndnjfjdksff<br>
+        dsfffggfd <br>
+        dsfdffsdffsfffsfdfffffffadff<br>
+        fdfdsfs<br>
+        ddfsfd<br>
+        dsffvf<br>
+        dsfffgx
+
+    </div> 
+    </body>
+</html>

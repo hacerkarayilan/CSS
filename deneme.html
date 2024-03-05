@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            margin-top: 20px;
+           
+        }
+        input,select{
+           border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <form >
+    <div class="container" style="background-color:#222536; color:#8daa2f; width: 800px; margin: auto;" >
+        <div style="color:#8daa2f; background-color:#de8704; padding:20px;">Sign Up</div>
+            <table style="width:100%; padding:15px;">
+             <div>
+                    <tr style="border:5px;">
+                        <td style="float:right; margin-bottom: 15px;"><label>First Name</label></td>
+                        <td><input type="text" placeholder="Enter First Name" style="margin-left: 10px; width: 90%; height:25px;" required></td>
+                    </tr>
+                    <tr>
+                        <td style="float:right;"><label>Last Name</label></td>
+                        <td ><input type="text" placeholder="Enter Last Name" style="margin-left: 10px; width: 90%; height:25px;"></td>
+                    </tr> 
+                    <tr>
+                        <td style="float:right;"><label>Screen Name</label></td>
+                        <td ><input type="text" placeholder="Enter Screen Name" style="margin-left: 10px; width: 90%; height:25px;"></td>
+                    </tr>
+                    <tr>
+                        <td style="float:right;"><label>Date of Birth</label></td>
+                        <td ><select style="margin-left:10px; width:40%;">
+                            <option selected>May</option>
+                            <option selected>June</option>
+                        </select>
+                        <select id="gün">
+                           <!--GÜNLER EKLENECEK-->
+                        </select>
+                        <select>
+                            <option selected>1995</option> <option>1987</option> <option>1999</option>
+                        </select>
+                    </td>  
+                    </tr>
+                    <tr>
+                        <td style="float:right;"><label>Gender</label></td>
+                        <td><input style="margin-left:10px;" type="radio" name="a">Male <input type="radio" name="a">Female</td>
+                    </tr>
+                    <tr>
+                        <td style="float:right;"><label>Country</label></td>
+                        <td ><select style="margin-left:10px; width:90%;"><option selected>USA</option><option>Germany</option><option>Turkey</option></select></td>
+                    </tr>
+                    <tr>
+                        <td style="float:right;"><label>E-mail</label></td>
+                        <td ><input type="email" placeholder="Enter E-mail" style="margin-left: 10px; width: 90%; height:25px;"></td>
+                    </tr>
+                    <tr>
+                        <td style="float:right;"><label>Last Name</label></td>
+                        <td ><input type="text" placeholder="Enter Last Name" style="margin-left: 10px; width: 90%; height:25px;"></td>
+                    </tr>
+                    <tr >
+                        <td style="float:right;"><label>Phone</label></td>
+                        <td ><input type="number" placeholder="Enter Phone" style="margin-left: 10px; width: 90%; height:25px;"></td>
+                    </tr> 
+                    <tr >
+                        <td style="float:right;"><label>Password</label></td>
+                        <td ><input type="password" style="margin-left: 10px; width: 90%; height:25px;"></td>
+                    </tr> 
+                    <tr >
+                        <td style="float:right;"><label>Confirm Password</label></td>
+                        <td ><input type="password" style="margin-left: 10px; width: 90%; height:25px;"></td>
+                    </tr> 
+                    <tr>
+                        <td></td>
+                        <td><input style="margin-left:10px;" type="checkbox">I agree to the Terms of Use</td>
+                    </tr>
+             </table>
+           </div>
+           <div style="color:#8daa2f; background-color:#de8704; padding:20px; width: 760px; margin: auto;">
+                
+                <input type="submit" style="float:right; background-color:#5bb85d; position: relative; bottom: 10px;">
+                <input type="reset" value="Cancel" style="float:right; background-color:#3f8ccd; margin-right:30px; position: relative; bottom: 10px; ">
+            </div>
+            
+    </div>
+</form>
+</body>
+</html>

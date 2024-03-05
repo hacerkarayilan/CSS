@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table{
+                color: aqua;
+                background-color:blue;
+                border-collapse: collapse; /*dış kenarı kaldırdı*/
+               
+            }
+            th{
+                font-size: 10px;
+                font-family:'Times New Roman', Times, serif;
+                color: black;
+                background-color: bisque;
+                padding: 10px;              
+            }
+            td{
+                text-align: center;
+                padding: 20px;
+                height: 50px;
+                border-style: dotted;
+                border-width: 5px;
+            }
+            #bir{
+                vertical-align:top;
+                /* vertical-align:bottom; hüçre içindekiler aşşağı yukarı falan yapışır*/
+           
+            }
+        </style>
+
+
+    </head>
+    
+    <body> 
+        <table border="1">
+            <tr><th>ÜLKE</th><th>NÜFUS</th></tr>
+            <tr><td>Türkiye</td><td>82</td></tr>
+            <tr><td id="bir">Yunanistan</td><td>20</td></tr>
+            <tr><td>Bulgaristan</td><td>7</td></tr>
+        </table>
+
+    </body>
+
+</html>
